@@ -1,0 +1,7 @@
+first_num = int(input("Enter a number: "))
+second_num = int(input("Enter another number: "))
+print("\n")
+print ("Sum        :", first_num + second_num)
+print ("Difference :", first_num - second_num)
+print ("Product    :", first_num * second_num)
+print ("Quotient   :", first_num / second_num)
