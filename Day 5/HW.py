@@ -16,5 +16,7 @@ Course_info = {
 for x,y in Course_info.items():
     print(f"Course : {x} , No_of_students : {y}")
     
-dict_comp = {"Fullstack" : len(Frontend) + len(Backend)}
-print(dict_comp)
+new_course_info = {k: v for k, v in Course_info.items()}
+new_course_info["Fullstack"] = len(Frontend) + len(Backend)
+
+print(new_course_info)
